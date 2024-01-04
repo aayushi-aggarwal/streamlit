@@ -10,7 +10,7 @@ st.set_page_config(
 col1, col2 = st.columns([1, 5])
 
 # Add the logo to the first column
-col1.image("pages\image\Insights by CG Infinity 1.png", width=100)
+col1.image("pages/image/Insights by CG Infinity 1.png", width=100)
 
 # Add the text to the second column
 col2.write("# Welcome to InSights Data!")
@@ -28,7 +28,7 @@ st.markdown(
 
 st.subheader("Snowflake Marketplace")
 
-st.image("pages\image\snowflake_marketplace.png")
+st.image("pages/image/snowflake_marketplace.png")
 
 st.markdown("""  
     The Snowflake Marketplace is a thriving hub for data and applications within the Snowflake Data Cloud. 

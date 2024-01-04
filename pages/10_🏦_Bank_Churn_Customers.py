@@ -7,7 +7,7 @@ st.set_page_config(page_title="Bank Churn Customers ", page_icon="pages/image/lo
 col1, col2 = st.columns([1, 5])
 
 # Add the logo to the first column
-col1.image("pages\image\Insights by CG Infinity 1.png", width=100)
+col1.image("pages/image/Insights by CG Infinity 1.png", width=100)
 
 # Add the text to the second column
 col2.write("# Bank Churn Customers")

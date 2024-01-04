@@ -14,7 +14,7 @@ st.set_page_config(page_title="Nasdaq Data", page_icon="pages/image/logo.png")
 col1, col2 = st.columns([1, 5])
 
 # Add the logo to the first column
-col1.image("pages\image\Insights by CG Infinity 1.png", width=110)
+col1.image("pages/image/Insights by CG Infinity 1.png", width=110)
 
 # Add the text to the second column
 col2.write("# Nasdaq Data")

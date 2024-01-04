@@ -7,7 +7,7 @@ st.set_page_config(page_title="Demographics Statistics By Zip Code ", page_icon=
 col1, col2 = st.columns([1, 5])
 
 # Add the logo to the first column
-col1.image("pages\image\Insights by CG Infinity 1.png", width=100)
+col1.image("pages/image/Insights by CG Infinity 1.png", width=100)
 
 # Add the text to the second column
 col2.write("# Demographics Statistics By Zip Code")
